@@ -9,7 +9,7 @@ gem "jekyll", "3.9.4"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jemoji", ">= 0.13.0"
-   gem "github-pages", ">= 229"
+   gem "github-pages", ">= 230"
    gem "jekyll-remote-theme"
    gem "jekyll-feed", ">= 0.16.0"
 end
@@ -17,4 +17,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'webrick', '~> 1.7'
+gem 'webrick', '~> 1.8', '>= 1.8.2'

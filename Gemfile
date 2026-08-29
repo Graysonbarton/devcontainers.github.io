@@ -9,7 +9,7 @@ gem "jekyll", "3.9.3"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jemoji"
-   gem "github-pages"
+   gem "github-pages", ">= 229"
    gem "jekyll-remote-theme"
    gem "jekyll-feed"
 end
